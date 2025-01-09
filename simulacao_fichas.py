@@ -89,3 +89,9 @@ st.write("### Probabilidades Teóricas:")
 st.write(f"- Verde: {probabilidades_teoricas['verde']:.2%}")
 st.write(f"- Amarelo: {probabilidades_teoricas['amarelo']:.2%}")
 st.write(f"- Vermelho: {probabilidades_teoricas['vermelho']:.2%}")
+
+# Rodapé
+st.markdown("""
+---
+Desenvolvido por [William Paiva](https://www.linkedin.com/in/william-paiva-fin/).
+""")
