@@ -7,7 +7,10 @@ st.set_page_config(page_title="Simulação de Retiradas", layout="wide")
 
 # Título e descrição
 st.title("Simulação de Retiradas - Lei dos Grandes Números")
-st.write("Informe os dados para simular retiradas de fichas e visualizar como as frequências relativas se aproximam das probabilidades teóricas.")
+st.write("""
+Este projeto simula a retirada de fichas de três cores (verde, amarelo e vermelho) de um pote. 
+No menu lateral, você pode configurar a quantidade de fichas de cada cor e a quantidade de vezes que essas fichas serão retiradas.
+""")
 
 # Seção sobre a Lei dos Grandes Números
 st.header("📘 O que é a Lei dos Grandes Números?")
